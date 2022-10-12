@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[hello python]]>
+    </line>
+    <line>
+      <![CDATA[hello pythonselenium]]>
+    </line>
+    <line>
+      <![CDATA[hello selenium]]>
+    </line>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+      <class name="scripts.Test1">
+        <test-method status="PASS" signature="tc2()[pri:0, instance:scripts.Test1@6b57696f]" name="tc2" duration-ms="0" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- scripts.Test1 -->
+      <class name="scripts.Test0">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:scripts.Test0@5bb21b69]" name="tc1" duration-ms="0" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- scripts.Test0 -->
+      <class name="scripts.Test3">
+        <test-method status="PASS" signature="tc4()[pri:0, instance:scripts.Test3@3234e239]" name="tc4" duration-ms="5" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- scripts.Test3 -->
+      <class name="scripts.Test2">
+        <test-method status="PASS" signature="tc3()[pri:0, instance:scripts.Test2@58c1670b]" name="tc3" duration-ms="1" started-at="2022-10-12T16:03:13 IST" finished-at="2022-10-12T16:03:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello pythonselenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- scripts.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
